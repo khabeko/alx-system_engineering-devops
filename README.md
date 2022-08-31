@@ -1,1 +1,1 @@
-Shell, basics -- Working with the shell, commands, and scripts
+ a script that changes the working directory to the user’s home directory
