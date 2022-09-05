@@ -1,7 +1,13 @@
-Write a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
+ a command that finds all empty files and directories in the current directory and all sub-directories.
 
 
 
-Order by number of requests, most active host or IP at the top
+Only the names of the files and directories should be displayed (not the entire path)
 
-You are not allowed to use grep, egrep, fgrep or rgrep
+Hidden files should be listed
+
+One file name per line
+
+The listing should end with a new line
+
+You are not allowed to use basename, grep, egrep, fgrep or rgrep
