@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | grep -n . | grep [13579]: | cut -d ":" -f 2-
+perl -lne 'print if $. % 2 == 1'
